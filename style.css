@@ -1,0 +1,168 @@
+*
+{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.logo
+{
+  width: 14rem;
+  height: 5rem;
+  margin:0 2rem;
+  margin-top: 1rem;
+}
+/* Container css */
+.container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* search box */
+.srch
+{
+  background-color: rgba(239, 239,239,1);
+  border-radius: 0.8rem;
+  width: 25rem;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  margin: 0 10rem;
+}
+.srch input
+{
+  background-color:  rgba(239, 239,239,1);
+  outline: none;
+  height: 1.5rem;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+/* nav css */
+.navbar ul
+{
+  list-style: none;
+  display: flex;
+  padding: 2rem 10rem;
+}
+nav .fa
+{
+  color: rgba(38,38,38,1);
+  margin: 1rem 1rem;
+  margin-right: 3rem;
+  font-size: 2rem;
+}
+/* li img css */
+.navbar ul li img
+{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 7rem;
+  margin-top: 0.5rem;
+  border: 0.5px solid transparent;
+  box-shadow: 0 0 0 0.1rem rgb(205, 199, 199) ;
+}
+/* home page css */
+.dp img
+{
+  width: 20rem;
+  height: 20rem;
+  margin-top: 3rem;
+  margin-left: 9rem;
+  border-radius: 10rem;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 0.3rem rgb(205, 199, 199) ;
+}
+.home
+{
+  display: flex;
+}
+/* profile css */
+.profile
+{
+  display: flex;
+  justify-content: center;
+  margin: 4rem 10rem;
+}
+.profile h3
+{
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-right: 2rem;
+}
+.btn
+{
+  height: 2rem;
+  width: 6rem;
+  margin-right: 2rem;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.btn:hover
+{
+  background-color: bisque;
+}
+.profile .fa
+{
+  color: black;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-right: 0.4rem;
+  font-size: 1.6rem;
+}
+/* status css */
+.status
+{
+  display: flex;
+  margin-top: 8rem;
+  margin-left: -34rem;
+}
+.status span
+{
+  font-weight: bold;
+}
+.status p
+{
+  margin: 0 2rem;
+}
+/* details css */
+.details
+{
+  text-align: justify;
+  margin-left: 39rem;
+  margin-top:-12rem;
+}
+#name
+{
+  font-weight: bold;
+}
+
+/* All highlight */
+.all_high
+{
+  display: flex;
+}
+.all_high img
+{
+  width: 10rem;
+  height: 10rem;
+  margin-top: 10rem;
+  margin-left: 5.2rem;
+}
+/* post css */
+.post_image
+{
+  display: flex;
+  justify-content: space-between;
+}
+.post_image img
+{
+  width: 20rem;
+  height: 20rem;
+  margin-left:5.2rem ;
+  margin-top: 2rem;
+}
